@@ -22,7 +22,7 @@ The project aims to:
 - 03_robust_regression.ipynb # Robust approaches (Ridge + Huber) and diagnostic checks
 - 04_final_model_USA.ipynb # Final model with rolling cross-validation and metrics
 
-- **Data**: Proprietary financial statement data (not included in this repository for confidentiality).  
+- **Data**: Proprietary financial statement data.  
 - **Code**: Python notebooks with clear, reproducible steps.  
 - **Pipeline**: From exploratory analysis and feature engineering (lags, log-transformations) to final validation.  
 
