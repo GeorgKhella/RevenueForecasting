@@ -53,9 +53,9 @@ The project aims to:
 - The **baseline OLS** provided a first benchmark, highlighting issues of overfitting and collinearity.  
 - **Ridge regression** significantly improved predictive stability, with lower variance and improved generalization.  
 - **Huber regression** confirmed robustness against outliers (e.g., firms with anomalous revenue growth).  
-- The **final model**, validated with rolling CV, achieved:  
-  - **MAE < 600** (average across firms)  
-  - **MAPE < 1%**, far outperforming the naïve benchmark (~3.3%).  
+- The **final model**, validated with rolling CV, achieved (*for some companies, not all*):  
+  - **MAE < 600** 
+  - **MAPE < 1%**, far outperforming the naïve benchmark.  
 
 These results demonstrate that even relatively simple regularized models can effectively forecast firm-level revenues over short horizons, provided that features are engineered carefully and validation is rigorous.
 
